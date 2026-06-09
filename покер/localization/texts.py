@@ -1,0 +1,115 @@
+"""UI strings for Poker Academy Bot."""
+
+from __future__ import annotations
+
+_TEXTS: dict[str, dict[str, str]] = {
+    "choose_language": {
+        "ru": "🌍 Выберите язык / Choose your language:",
+        "en": "🌍 Choose your language:",
+        "es": "🌍 Elige tu idioma:",
+        "pt": "🌍 Escolha seu idioma:",
+        "fr": "🌍 Choisissez votre langue :",
+        "de": "🌍 Wähle deine Sprache:",
+    },
+    "welcome": {
+        "ru": "♠️ <b>Добро пожаловать в Покер Академию!</b>\n\nЗдесь ты научишься играть в покер с нуля или прокачаешь навыки.\n\nВыбери раздел в меню ниже 👇",
+        "en": "♠️ <b>Welcome to Poker Academy!</b>\n\nLearn poker from scratch or sharpen your skills.\n\nChoose a section below 👇",
+        "es": "♠️ <b>¡Bienvenido a Poker Academy!</b>\n\nAprende póker desde cero o mejora tus habilidades.\n\nElige una sección abajo 👇",
+        "pt": "♠️ <b>Bem-vindo à Poker Academy!</b>\n\nAprenda poker do zero ou aprimore suas habilidades.\n\nEscolha uma seção abaixo 👇",
+        "fr": "♠️ <b>Bienvenue à Poker Academy !</b>\n\nApprenez le poker de zéro ou améliorez vos compétences.\n\nChoisissez une section ci-dessous 👇",
+        "de": "♠️ <b>Willkommen bei Poker Academy!</b>\n\nLerne Poker von Grund auf oder verbessere deine Fähigkeiten.\n\nWähle unten einen Bereich 👇",
+    },
+    "btn_theory": {"ru": "📚 Теория", "en": "📚 Theory", "es": "📚 Teoría", "pt": "📚 Teoria", "fr": "📚 Théorie", "de": "📚 Theorie"},
+    "btn_training": {"ru": "🎯 Тренажёр", "en": "🎯 Trainer", "es": "🎯 Entrenador", "pt": "🎯 Treinador", "fr": "🎯 Entraîneur", "de": "🎯 Trainer"},
+    "btn_poker_types": {"ru": "🃏 Виды покера", "en": "🃏 Poker Variants", "es": "🃏 Variantes", "pt": "🃏 Variantes", "fr": "🃏 Variantes", "de": "🃏 Poker-Varianten"},
+    "btn_progress": {"ru": "📊 Мой прогресс", "en": "📊 My Progress", "es": "📊 Mi Progreso", "pt": "📊 Meu Progresso", "fr": "📊 Ma Progression", "de": "📊 Mein Fortschritt"},
+    "btn_tips": {"ru": "💡 Советы профи", "en": "💡 Pro Tips", "es": "💡 Consejos Pro", "pt": "💡 Dicas Pro", "fr": "💡 Conseils Pro", "de": "💡 Profi-Tipps"},
+    "btn_quiz": {"ru": "❓ Квиз дня", "en": "❓ Quiz of the Day", "es": "❓ Quiz del día", "pt": "❓ Quiz do dia", "fr": "❓ Quiz du jour", "de": "❓ Quiz des Tages"},
+    "btn_play_real": {"ru": "🎰 Играть на реальные деньги", "en": "🎰 Play for Real Money", "es": "🎰 Jugar por dinero real", "pt": "🎰 Jogar por dinheiro real", "fr": "🎰 Jouer pour de l'argent réel", "de": "🎰 Um echtes Geld spielen"},
+    "btn_change_lang": {"ru": "🌐 Сменить язык", "en": "🌐 Change Language", "es": "🌐 Cambiar idioma", "pt": "🌐 Mudar idioma", "fr": "🌐 Changer la langue", "de": "🌐 Sprache ändern"},
+    "btn_back": {"ru": "⬅️ Назад", "en": "⬅️ Back", "es": "⬅️ Atrás", "pt": "⬅️ Voltar", "fr": "⬅️ Retour", "de": "⬅️ Zurück"},
+    "btn_main_menu": {"ru": "🏠 Главное меню", "en": "🏠 Main Menu", "es": "🏠 Menú principal", "pt": "🏠 Menu principal", "fr": "🏠 Menu principal", "de": "🏠 Hauptmenü"},
+    "theory_menu_title": {"ru": "📚 <b>Теория покера</b>\n\nВыбери тему:", "en": "📚 <b>Poker Theory</b>\n\nChoose a topic:", "es": "📚 <b>Teoría del Póker</b>\n\nElige un tema:", "pt": "📚 <b>Teoria do Poker</b>\n\nEscolha um tópico:", "fr": "📚 <b>Théorie du Poker</b>\n\nChoisissez un sujet :", "de": "📚 <b>Poker-Theorie</b>\n\nWähle ein Thema:"},
+    "btn_theory_basics": {"ru": "🎴 Основы", "en": "🎴 Basics", "es": "🎴 Básicos", "pt": "🎴 Básicos", "fr": "🎴 Bases", "de": "🎴 Grundlagen"},
+    "btn_theory_preflop": {"ru": "🂡 Префлоп стратегия", "en": "🂡 Preflop Strategy", "es": "🂡 Estrategia Preflop", "pt": "🂡 Estratégia Preflop", "fr": "🂡 Stratégie Préflop", "de": "🂡 Preflop-Strategie"},
+    "btn_theory_postflop": {"ru": "🃏 Постфлоп", "en": "🃏 Postflop", "es": "🃏 Postflop", "pt": "🃏 Postflop", "fr": "🃏 Postflop", "de": "🃏 Postflop"},
+    "btn_theory_bankroll": {"ru": "💰 Банкролл", "en": "💰 Bankroll Mgmt", "es": "💰 Gestión de BR", "pt": "💰 Gestão de Banca", "fr": "💰 Gestion BR", "de": "💰 Bankroll-Mgmt"},
+    "btn_theory_psychology": {"ru": "🧠 Психология", "en": "🧠 Psychology", "es": "🧠 Psicología", "pt": "🧠 Psicologia", "fr": "🧠 Psychologie", "de": "🧠 Psychologie"},
+    "training_menu_title": {"ru": "🎯 <b>Тренажёр</b>\n\nВыбери режим:", "en": "🎯 <b>Trainer</b>\n\nChoose a mode:", "es": "🎯 <b>Entrenador</b>\n\nElige un modo:", "pt": "🎯 <b>Treinador</b>\n\nEscolha um modo:", "fr": "🎯 <b>Entraîneur</b>\n\nChoisissez un mode :", "de": "🎯 <b>Trainer</b>\n\nWähle einen Modus:"},
+    "btn_train_hands": {"ru": "🤲 Оценка рук", "en": "🤲 Hand Evaluator", "es": "🤲 Evaluar manos", "pt": "🤲 Avaliar mãos", "fr": "🤲 Évaluer mains", "de": "🤲 Hände bewerten"},
+    "btn_train_decisions": {"ru": "🎲 Принятие решений", "en": "🎲 Decision Maker", "es": "🎲 Tomar decisiones", "pt": "🎲 Tomar decisões", "fr": "🎲 Prise de décision", "de": "🎲 Entscheidungen"},
+    "btn_train_equity": {"ru": "📈 Эквити", "en": "📈 Equity Drill", "es": "📈 Equidad", "pt": "📈 Equidade", "fr": "📈 Équité", "de": "📈 Equity"},
+    "btn_train_simulator": {"ru": "🃏 Симулятор раздач", "en": "🃏 Hand Simulator", "es": "🃏 Simulador", "pt": "🃏 Simulador", "fr": "🃏 Simulateur", "de": "🃏 Hand-Simulator"},
+    "btn_train_quiz": {"ru": "❓ Квизы", "en": "❓ Quizzes", "es": "❓ Cuestionarios", "pt": "❓ Questionários", "fr": "❓ Quiz", "de": "❓ Quiz"},
+    "poker_types_title": {"ru": "🃏 <b>Виды покера</b>\n\nВыбери вариант:", "en": "🃏 <b>Poker Variants</b>\n\nChoose a variant:", "es": "🃏 <b>Variantes de Póker</b>\n\nElige una variante:", "pt": "🃏 <b>Variantes de Poker</b>\n\nEscolha uma variante:", "fr": "🃏 <b>Variantes de Poker</b>\n\nChoisissez une variante :", "de": "🃏 <b>Poker-Varianten</b>\n\nWähle eine Variante:"},
+    "btn_holdem": {"ru": "♠️ Техасский Холдем", "en": "♠️ Texas Hold'em", "es": "♠️ Texas Hold'em", "pt": "♠️ Texas Hold'em", "fr": "♠️ Texas Hold'em", "de": "♠️ Texas Hold'em"},
+    "btn_plo": {"ru": "♦️ Пот-Лимит Омаха", "en": "♦️ Pot-Limit Omaha", "es": "♦️ Omaha Pot-Limit", "pt": "♦️ Omaha Pot-Limit", "fr": "♦️ Omaha Pot-Limit", "de": "♦️ Pot-Limit Omaha"},
+    "btn_omaha_hilo": {"ru": "♣️ Омаха Хай-Лоу", "en": "♣️ Omaha Hi-Lo", "es": "♣️ Omaha Hi-Lo", "pt": "♣️ Omaha Hi-Lo", "fr": "♣️ Omaha Hi-Lo", "de": "♣️ Omaha Hi-Lo"},
+    "btn_stud": {"ru": "🂾 Семёрка Стад", "en": "🂾 Seven Card Stud", "es": "🂾 Seven Card Stud", "pt": "🂾 Seven Card Stud", "fr": "🂾 Seven Card Stud", "de": "🂾 Seven Card Stud"},
+    "btn_draw": {"ru": "🎴 Пятикарточный Дро", "en": "🎴 Five Card Draw", "es": "🎴 Five Card Draw", "pt": "🎴 Five Card Draw", "fr": "🎴 Five Card Draw", "de": "🎴 Five Card Draw"},
+    "btn_shortdeck": {"ru": "⚡ Шорт-Дек Холдем", "en": "⚡ Short Deck Hold'em", "es": "⚡ Short Deck", "pt": "⚡ Short Deck", "fr": "⚡ Short Deck", "de": "⚡ Short Deck"},
+    "affiliate_intro": {
+        "ru": "🎰 <b>Играть на реальные деньги</b>\n\nТы освоил теорию — пора применить знания за реальным столом.\n\nВыбери покерный рум и получи бонус 🎁",
+        "en": "🎰 <b>Play for Real Money</b>\n\nYou've mastered the theory — time to apply your skills.\n\nChoose a poker room and claim your welcome bonus 🎁",
+        "es": "🎰 <b>Jugar por dinero real</b>\n\nHas dominado la teoría — es hora de aplicar tus habilidades.\n\nElige una sala y reclama tu bono 🎁",
+        "pt": "🎰 <b>Jogar por dinheiro real</b>\n\nVocê dominou a teoria — hora de aplicar suas habilidades.\n\nEscolha uma sala e resgate seu bônus 🎁",
+        "fr": "🎰 <b>Jouer pour de l'argent réel</b>\n\nVous maîtrisez la théorie — il est temps d'appliquer vos compétences.\n\nChoisissez une salle et réclamez votre bonus 🎁",
+        "de": "🎰 <b>Um echtes Geld spielen</b>\n\nDu hast die Theorie gemeistert — Zeit, deine Fähigkeiten einzusetzen.\n\nWähle einen Raum und hol dir deinen Bonus 🎁",
+    },
+    "affiliate_after_quiz": {
+        "ru": "🏆 <b>Отличный результат!</b> {score}/{max} правильных.\n\nГотов применить знания за реальным столом? 👇",
+        "en": "🏆 <b>Great result!</b> {score}/{max} correct.\n\nReady to play for real? Many rooms offer welcome bonuses 👇",
+        "es": "🏆 <b>¡Gran resultado!</b> {score}/{max} correctas.\n\n¿Listo para jugar en serio? 👇",
+        "pt": "🏆 <b>Ótimo resultado!</b> {score}/{max} corretas.\n\nPronto para jogar valendo? 👇",
+        "fr": "🏆 <b>Excellent !</b> {score}/{max} bonnes réponses.\n\nPrêt à jouer pour de vrai ? 👇",
+        "de": "🏆 <b>Tolles Ergebnis!</b> {score}/{max} richtig.\n\nBereit für echtes Spiel? 👇",
+    },
+    "affiliate_after_lesson": {
+        "ru": "✅ Урок завершён!\n\n💡 <i>Хочешь проверить навыки за реальным столом?</i>",
+        "en": "✅ Lesson complete!\n\n💡 <i>Want to test your skills at a real table?</i>",
+        "es": "✅ ¡Lección completada!\n\n💡 <i>¿Quieres probar en una mesa real?</i>",
+        "pt": "✅ Lição concluída!\n\n💡 <i>Quer testar em uma mesa real?</i>",
+        "fr": "✅ Leçon terminée !\n\n💡 <i>Envie de tester à une vraie table ?</i>",
+        "de": "✅ Lektion abgeschlossen!\n\n💡 <i>Möchtest du an einem echten Tisch testen?</i>",
+    },
+    "btn_try_real_play": {"ru": "🎰 Попробовать на практике", "en": "🎰 Try in Real Play", "es": "🎰 Probar en la práctica", "pt": "🎰 Experimentar na prática", "fr": "🎰 Essayer en pratique", "de": "🎰 In der Praxis ausprobieren"},
+    "btn_best_room": {"ru": "🌐 Лучший рум для меня", "en": "🌐 Best Room for Me", "es": "🌐 Mejor sala para mí", "pt": "🌐 Melhor sala para mim", "fr": "🌐 Meilleure salle pour moi", "de": "🌐 Bester Raum für mich"},
+    "btn_all_rooms": {"ru": "📋 Все румы", "en": "📋 All Rooms", "es": "📋 Todas las salas", "pt": "📋 Todas as salas", "fr": "📋 Toutes les salles", "de": "📋 Alle Räume"},
+    "affiliate_disclaimer": {
+        "ru": "⚠️ <i>Играй ответственно. Только для лиц 18+.</i>",
+        "en": "⚠️ <i>Play responsibly. 18+ only.</i>",
+        "es": "⚠️ <i>Juega responsablemente. Solo mayores de 18.</i>",
+        "pt": "⚠️ <i>Jogue com responsabilidade. Apenas para maiores de 18.</i>",
+        "fr": "⚠️ <i>Jouez de manière responsable. Réservé aux 18+.</i>",
+        "de": "⚠️ <i>Spiele verantwortungsbewusst. Nur für Personen ab 18.</i>",
+    },
+    "progress_title": {"ru": "📊 <b>Мой прогресс</b>", "en": "📊 <b>My Progress</b>", "es": "📊 <b>Mi Progreso</b>", "pt": "📊 <b>Meu Progresso</b>", "fr": "📊 <b>Ma Progression</b>", "de": "📊 <b>Mein Fortschritt</b>"},
+    "progress_stats": {
+        "ru": "👤 Уровень: <b>{level}</b>\n📚 Уроков пройдено: <b>{lessons}</b>\n🌍 Язык: <b>{user_lang}</b>",
+        "en": "👤 Level: <b>{level}</b>\n📚 Lessons completed: <b>{lessons}</b>\n🌍 Language: <b>{user_lang}</b>",
+        "es": "👤 Nivel: <b>{level}</b>\n📚 Lecciones completadas: <b>{lessons}</b>\n🌍 Idioma: <b>{user_lang}</b>",
+        "pt": "👤 Nível: <b>{level}</b>\n📚 Lições concluídas: <b>{lessons}</b>\n🌍 Idioma: <b>{user_lang}</b>",
+        "fr": "👤 Niveau : <b>{level}</b>\n📚 Leçons complétées : <b>{lessons}</b>\n🌍 Langue : <b>{user_lang}</b>",
+        "de": "👤 Level: <b>{level}</b>\n📚 Abgeschlossene Lektionen: <b>{lessons}</b>\n🌍 Sprache: <b>{user_lang}</b>",
+    },
+    "admin_panel": {"ru": "🔧 <b>Админ панель</b>", "en": "🔧 <b>Admin Panel</b>", "es": "🔧 <b>Panel de Administrador</b>", "pt": "🔧 <b>Painel de Administrador</b>", "fr": "🔧 <b>Panneau d'administration</b>", "de": "🔧 <b>Admin-Panel</b>"},
+    "admin_stats": {
+        "ru": "📊 <b>Статистика</b>\n\n👥 Пользователей: <b>{users}</b>\n\n🔗 Клики по партнёркам:\n{clicks}",
+        "en": "📊 <b>Statistics</b>\n\n👥 Total users: <b>{users}</b>\n\n🔗 Affiliate clicks:\n{clicks}",
+        "es": "📊 <b>Estadísticas</b>\n\n👥 Usuarios totales: <b>{users}</b>\n\n🔗 Clics de afiliados:\n{clicks}",
+        "pt": "📊 <b>Estatísticas</b>\n\n👥 Total de usuários: <b>{users}</b>\n\n🔗 Cliques de afiliados:\n{clicks}",
+        "fr": "📊 <b>Statistiques</b>\n\n👥 Total utilisateurs : <b>{users}</b>\n\n🔗 Clics affiliés :\n{clicks}",
+        "de": "📊 <b>Statistiken</b>\n\n👥 Gesamt-Nutzer: <b>{users}</b>\n\n🔗 Affiliate-Klicks:\n{clicks}",
+    },
+    "not_admin": {"ru": "⛔ У вас нет доступа к этой команде.", "en": "⛔ You don't have access to this command.", "es": "⛔ No tienes acceso a este comando.", "pt": "⛔ Você não tem acesso a este comando.", "fr": "⛔ Vous n'avez pas accès à cette commande.", "de": "⛔ Du hast keinen Zugriff auf diesen Befehl."},
+    "coming_soon": {"ru": "🚧 Этот раздел скоро появится!", "en": "🚧 This section is coming soon!", "es": "🚧 ¡Esta sección estará disponible pronto!", "pt": "🚧 Esta seção estará disponível em breve!", "fr": "🚧 Cette section sera bientôt disponible !", "de": "🚧 Dieser Bereich kommt bald!"},
+    "error_generic": {"ru": "❌ Что-то пошло не так. Попробуй позже.", "en": "❌ Something went wrong. Please try again later.", "es": "❌ Algo salió mal. Inténtalo más tarde.", "pt": "❌ Algo deu errado. Tente novamente mais tarde.", "fr": "❌ Une erreur s'est produite. Réessayez plus tard.", "de": "❌ Etwas ist schiefgelaufen. Bitte versuche es später erneut."},
+}
+
+_FALLBACK_LANG = "en"
+
+
+def t(key: str, lang: str, **kwargs) -> str:
+    lang_map = _TEXTS.get(key, {})
+    text = lang_map.get(lang) or lang_map.get(_FALLBACK_LANG, f"[{key}]")
+    return text.format(**kwargs) if kwargs else text
